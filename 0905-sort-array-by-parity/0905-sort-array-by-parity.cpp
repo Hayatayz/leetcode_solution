@@ -7,8 +7,10 @@ public:
                 swap(nums[left], nums[right]);
             }
 
-            if (nums[left] % 2 == 0) left++;
-            if (nums[right] % 2 == 1) right--;
+            if (nums[left] % 2 == 0)
+                left++;
+            if (nums[right] % 2 == 1)
+                right--;
         }
         return nums;
     }
